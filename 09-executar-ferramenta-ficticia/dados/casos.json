@@ -1,0 +1,94 @@
+{
+  "consulta": [
+    {
+      "tipo": "ferramenta",
+      "id": "c1",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":1042}"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Fim do roteiro offline."
+    }
+  ],
+  "correcao": [
+    {
+      "tipo": "ferramenta",
+      "id": "c1",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":true}"
+    },
+    {
+      "tipo": "ferramenta",
+      "id": "c2",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":1043}"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Fim do roteiro offline."
+    }
+  ],
+  "repeticao": [
+    {
+      "tipo": "ferramenta",
+      "id": "c1",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":\"1042\"}"
+    },
+    {
+      "tipo": "ferramenta",
+      "id": "c2",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":\"1042\"}"
+    },
+    {
+      "tipo": "ferramenta",
+      "id": "c3",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":\"1042\"}"
+    },
+    {
+      "tipo": "ferramenta",
+      "id": "c4",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":\"1042\"}"
+    }
+  ],
+  "ausente": [
+    {
+      "tipo": "ferramenta",
+      "id": "c1",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":9999}"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Fim do roteiro offline."
+    }
+  ],
+  "negado": [
+    {
+      "tipo": "ferramenta",
+      "id": "c1",
+      "nome": "consultar_pedido",
+      "argumentos": "{\"id_pedido\":2088}"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Fim do roteiro offline."
+    }
+  ],
+  "proibida": [
+    {
+      "tipo": "ferramenta",
+      "id": "c1",
+      "nome": "cancelar_pedido",
+      "argumentos": "{}"
+    },
+    {
+      "tipo": "texto",
+      "texto": "Fim do roteiro offline."
+    }
+  ]
+}

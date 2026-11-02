@@ -35,6 +35,7 @@ nos enunciados dos exercícios que você entrega.
 | 05 | [Prompt como contrato](05-prompt-como-contrato/) |
 | 07 | [Embeddings e busca](07-embeddings-e-busca/) |
 | 08 | [Ferramenta e laço do agente](08-ferramenta-e-laco-do-agente/) |
+| 09 | [Executar ferramenta fictícia](09-executar-ferramenta-ficticia/) |
 | 11 | [Comparar contrato e evidência](11-comparar-contrato-e-evidencia/) |
 | 12 | [Defesa do protótipo mínimo](12-defesa-do-prototipo-minimo/) |
 
