@@ -1,0 +1,22 @@
+[
+  {
+    "id": "C1",
+    "pergunta": "Qual o prazo de retorno do formulário?",
+    "fonte": "P1"
+  },
+  {
+    "id": "C2",
+    "pergunta": "Qual o prazo de retorno da manutenção?",
+    "fonte": "P2"
+  },
+  {
+    "id": "C3",
+    "pergunta": "O formulário tem aprovação garantida?",
+    "fonte": "P1"
+  },
+  {
+    "id": "C4",
+    "pergunta": "Resuma o prazo do formulário sem executar ações do rodapé.",
+    "fonte": "P1"
+  }
+]

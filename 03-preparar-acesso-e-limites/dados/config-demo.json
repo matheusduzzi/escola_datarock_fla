@@ -1,0 +1,7 @@
+{
+  "max_tentativas": 1,
+  "max_entrada_chars": 200,
+  "max_saida_chars": 80,
+  "orcamento_unidades": 10,
+  "reserva_unidades": 6
+}

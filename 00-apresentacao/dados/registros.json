@@ -1,0 +1,5 @@
+[
+  {"id": "C-01", "ativo": true},
+  {"id": "C-02", "ativo": false},
+  {"id": "C-03", "ativo": true}
+]

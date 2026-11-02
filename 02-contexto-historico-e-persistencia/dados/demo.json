@@ -1,0 +1,27 @@
+{
+  "u1": {
+    "id": "u1",
+    "papel": "usuario",
+    "texto": "Na Loja Horizonte, prefiro tabela. Separe os itens por categoria."
+  },
+  "a1": {
+    "id": "a1",
+    "papel": "assistente",
+    "texto": "Vou organizar em tabela. Qual item você escolheu?"
+  },
+  "u2": {
+    "id": "u2",
+    "papel": "usuario",
+    "texto": "Escolhi a luminária L7."
+  },
+  "a2": {
+    "id": "a2",
+    "papel": "assistente",
+    "texto": "Item informado: luminária L7."
+  },
+  "u3": {
+    "id": "u3",
+    "papel": "usuario",
+    "texto": "Qual item escolhi e em que formato você vai responder?"
+  }
+}

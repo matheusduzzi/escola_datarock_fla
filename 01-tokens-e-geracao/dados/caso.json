@@ -1,0 +1,10 @@
+{
+  "procedencia": "Dados fictícios autorais para microlaboratório FLA-R01; nenhum modelo consultado",
+  "texto": "Olá, loja!",
+  "vocabulario": {"Ol": 0, "á": 1, ",": 2, " loja": 3, "!": 4},
+  "contexto": "O pedido está",
+  "candidatos": [" pronto", " atrasado", " cancelado"],
+  "probabilidades": [0.6, 0.3, 0.1],
+  "temperaturas": [0.5, 1, 2],
+  "uniformes": [0.2, 0.7, 0.95]
+}

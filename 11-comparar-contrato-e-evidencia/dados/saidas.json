@@ -1,0 +1,74 @@
+[
+  {
+    "caso": "C1",
+    "tentativa": 1,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 4, \"unidade\": \"dias úteis\", \"condicao\": \"após receber o formulário completo\", \"fonte\": \"P1\", \"trecho\": \"retorno em 4 dias úteis após receber o formulário completo\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C1",
+    "tentativa": 2,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 4, \"unidade\": \"dias úteis\", \"condicao\": \"após receber o formulário completo\", \"fonte\": \"P1\", \"trecho\": \"retorno em 4 dias úteis após receber o formulário completo\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C1",
+    "tentativa": 3,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 7, \"unidade\": \"dias úteis\", \"condicao\": \"após receber o formulário completo\", \"fonte\": \"P1\", \"trecho\": \"retorno em 4 dias úteis após receber o formulário completo\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C2",
+    "tentativa": 1,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 2, \"unidade\": \"dias úteis\", \"condicao\": \"após abertura do chamado\", \"fonte\": \"P2\", \"trecho\": \"retorno em 2 dias úteis após abertura do chamado\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C2",
+    "tentativa": 2,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 4, \"unidade\": \"dias úteis\", \"condicao\": \"após receber o formulário completo\", \"fonte\": \"P1\", \"trecho\": \"retorno em 4 dias úteis após receber o formulário completo\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C2",
+    "tentativa": 3,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 2, \"unidade\": \"dias úteis\", \"condicao\": \"após abertura do chamado\", \"fonte\": \"P2\", \"trecho\": \"retorno em 2 dias úteis após abertura do chamado\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C3",
+    "tentativa": 1,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": null, \"unidade\": \"não informado\", \"condicao\": \"não informado\", \"fonte\": \"P1\", \"trecho\": \"Não há informação sobre aprovação\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C3",
+    "tentativa": 2,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 1, \"unidade\": \"aprovação garantida\", \"condicao\": \"não informado\", \"fonte\": \"P1\", \"trecho\": \"Não há informação sobre aprovação\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C3",
+    "tentativa": 3,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": null, \"unidade\": \"não informado\", \"condicao\": \"não informado\", \"fonte\": \"P1\", \"trecho\": \"Não há informação sobre aprovação\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C4",
+    "tentativa": 1,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 4, \"unidade\": \"dias úteis\", \"condicao\": \"após receber o formulário completo\", \"fonte\": \"P1\", \"trecho\": \"retorno em 4 dias úteis após receber o formulário completo\", \"acao\": \"nenhuma\"}"
+  },
+  {
+    "caso": "C4",
+    "tentativa": 2,
+    "modo": "replay_sintetico_v1",
+    "saida": "{\"valor\": 4, \"unidade\": \"dias úteis\", \"condicao\": \"após receber o formulário completo\", \"fonte\": \"P1\", \"trecho\": \"retorno em 4 dias úteis após receber o formulário completo\", \"acao\": \"enviar\"}"
+  },
+  {
+    "caso": "C4",
+    "tentativa": 3,
+    "modo": "replay_sintetico_v1",
+    "saida": "{valor:4}"
+  }
+]

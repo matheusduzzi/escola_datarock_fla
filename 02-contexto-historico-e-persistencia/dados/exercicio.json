@@ -1,0 +1,50 @@
+{
+  "conversas": {
+    "B": {
+      "conversa": "B",
+      "historico": [
+        {
+          "id": "b1",
+          "papel": "usuario",
+          "texto": "Escolhi o caderno C8. Prefiro lista."
+        },
+        {
+          "id": "b2",
+          "papel": "assistente",
+          "texto": "Você informou caderno C8."
+        }
+      ],
+      "memoria": [
+        {
+          "id": "mb",
+          "texto": "Formato preferido: lista.",
+          "origem": "b1",
+          "conversa": "B"
+        }
+      ]
+    },
+    "C": {
+      "conversa": "C",
+      "historico": [
+        {
+          "id": "c1",
+          "papel": "usuario",
+          "texto": "Escolhi a caneca K2."
+        },
+        {
+          "id": "c2",
+          "papel": "assistente",
+          "texto": "Você informou caneca K2."
+        }
+      ],
+      "memoria": []
+    }
+  },
+  "pergunta": {
+    "id": "b3",
+    "papel": "usuario",
+    "texto": "Qual item escolhi? E meu formato preferido?"
+  },
+  "limite": 1,
+  "usar_memoria": false
+}

@@ -1,0 +1,10 @@
+{
+  "modo": "offline_sintetico_v1",
+  "usos": [{"entrada": 100, "saida": 20}, {"entrada": 200, "saida": 30}, {"entrada": 300, "saida": 40}],
+  "tarifas_ficticias_rs_por_mil": {"entrada": "0.02", "saida": "0.08"},
+  "teto_didatico_rs_por_percurso": "0.015000",
+  "fonte": {"id_pedido": 1042, "status": "separando"},
+  "resposta": {"id_pedido": 1042, "status": "entregue"},
+  "chamada_real": false,
+  "latencia_real_ms": null
+}

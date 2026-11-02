@@ -1,0 +1,16 @@
+{
+  "consulta": [
+    {"tipo":"ferramenta","nome":"consultar_pedido","argumentos":{"id_pedido":1042}},
+    {"tipo":"texto","texto":"O pedido 1042 está separando."}
+  ],
+  "negacao": [
+    {"tipo":"ferramenta","nome":"consultar_pedido","argumentos":{"id_pedido":2088}},
+    {"tipo":"texto","texto":"Não tenho autorização para consultar esse pedido."}
+  ],
+  "repeticao": [
+    {"tipo":"ferramenta","nome":"consultar_pedido","argumentos":{"id_pedido":1042}},
+    {"tipo":"ferramenta","nome":"consultar_pedido","argumentos":{"id_pedido":1042}},
+    {"tipo":"ferramenta","nome":"consultar_pedido","argumentos":{"id_pedido":1042}},
+    {"tipo":"texto","texto":"Esta resposta não será consumida com o teto padrão."}
+  ]
+}

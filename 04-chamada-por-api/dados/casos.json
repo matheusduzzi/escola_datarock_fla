@@ -1,0 +1,182 @@
+[
+  {
+    "caso": "sucesso",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 64,
+      "store": false
+    },
+    "http_status": 200,
+    "corpo": {
+      "id": "resp_demo",
+      "model": "modelo-demo-ficticio",
+      "status": "completed",
+      "output": [
+        {
+          "type": "reasoning"
+        },
+        {
+          "type": "message",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "O prazo é de 7 dias."
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 9,
+        "total_tokens": 39
+      },
+      "incomplete_details": null,
+      "error": null
+    }
+  },
+  {
+    "caso": "incompleta",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 4,
+      "store": false
+    },
+    "http_status": 200,
+    "corpo": {
+      "id": "resp_demo",
+      "model": "modelo-demo-ficticio",
+      "status": "incomplete",
+      "output": [
+        {
+          "type": "reasoning"
+        },
+        {
+          "type": "message",
+          "content": [
+            {
+              "type": "output_text",
+              "text": "O prazo é"
+            }
+          ]
+        }
+      ],
+      "usage": {
+        "input_tokens": 30,
+        "output_tokens": 4,
+        "total_tokens": 34
+      },
+      "incomplete_details": {
+        "reason": "max_output_tokens"
+      },
+      "error": null
+    }
+  },
+  {
+    "caso": "autenticacao",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 64,
+      "store": false
+    },
+    "http_status": 401,
+    "corpo": {
+      "error": {
+        "code": "invalid_api_key",
+        "type": "invalid_request_error",
+        "message": "Mensagem sintética omitida do registro compartilhável."
+      }
+    }
+  },
+  {
+    "caso": "limite_taxa",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 64,
+      "store": false
+    },
+    "http_status": 429,
+    "corpo": {
+      "error": {
+        "code": "rate_limit_exceeded",
+        "type": "rate_limit_error",
+        "message": "Mensagem sintética omitida do registro compartilhável."
+      }
+    }
+  },
+  {
+    "caso": "cota",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 64,
+      "store": false
+    },
+    "http_status": 429,
+    "corpo": {
+      "error": {
+        "code": "credit_balance_exhausted",
+        "type": "insufficient_quota",
+        "message": "Mensagem sintética omitida do registro compartilhável."
+      }
+    }
+  },
+  {
+    "caso": "servidor",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 64,
+      "store": false
+    },
+    "http_status": 503,
+    "corpo": {
+      "error": {
+        "code": "server_error",
+        "type": "server_error",
+        "message": "Mensagem sintética omitida do registro compartilhável."
+      }
+    }
+  },
+  {
+    "caso": "timeout",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 64,
+      "store": false
+    },
+    "http_status": null,
+    "corpo": null
+  },
+  {
+    "caso": "json_invalido",
+    "origem": "sintetica",
+    "pedido": {
+      "model": "modelo-demo-ficticio",
+      "instructions": "Responda usando apenas a regra fornecida.",
+      "input": "Na Loja Farol fictícia, a troca é permitida em 7 dias. Qual é o prazo?",
+      "max_output_tokens": 64,
+      "store": false
+    },
+    "http_status": 200,
+    "corpo": "isto nao e JSON"
+  }
+]
