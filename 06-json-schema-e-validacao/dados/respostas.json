@@ -1,0 +1,70 @@
+[
+  {
+    "id": "boa",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 7, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "aspas_simples",
+    "texto": "{'pedido': 1042, 'status': 'enviado', 'prazo_dias': 7, 'fonte': 'politica-v1'}"
+  },
+  {
+    "id": "cerca_markdown",
+    "texto": "```json\n{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 7, \"status\": \"enviado\"}\n```"
+  },
+  {
+    "id": "tipo_texto",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": \"7\", \"status\": \"enviado\"}"
+  },
+  {
+    "id": "booleano",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": true, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "campo_extra",
+    "texto": "{\"email\": \"nao-usar\", \"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 7, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "enum",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 7, \"status\": \"a caminho\"}"
+  },
+  {
+    "id": "negativo",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": -1, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "acima_limite",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 31, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "ausente",
+    "texto": "{\"pedido\": 1042, \"prazo_dias\": 7, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "nulo",
+    "texto": "{\"fonte\": null, \"pedido\": 1042, \"prazo_dias\": 7, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "lista",
+    "texto": "[]"
+  },
+  {
+    "id": "fracionario",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 7.5, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "inteiro_decimal",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 7.0, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "duplicata",
+    "texto": "{\"pedido\":1042,\"pedido\":1043}"
+  },
+  {
+    "id": "constante",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": NaN, \"status\": \"enviado\"}"
+  },
+  {
+    "id": "silenciosa",
+    "texto": "{\"fonte\": \"politica-v1\", \"pedido\": 1042, \"prazo_dias\": 30, \"status\": \"enviado\"}"
+  }
+]

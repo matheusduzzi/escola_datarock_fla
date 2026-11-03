@@ -14,7 +14,9 @@ cd escola_datarock_fla
 python3 --version
 ```
 
-Os exemplos disponíveis usam Python 3.9 ou superior e a biblioteca padrão.
+Os exemplos usam Python 3.9 ou superior. A aula **JSON Schema e validação** também usa
+`jsonschema==4.25.1`; instale pelo `requirements.txt` dela, seguindo seu README.
+As demais aulas usam a biblioteca padrão.
 Leia o README de cada aula para conferir os comandos e as dependências dela.
 Os programas deste kit executam exemplos locais, sem chamar uma API de modelo.
 Os dados foram preparados para o curso e não são registros de clientes.
@@ -33,13 +35,14 @@ nos enunciados dos exercícios que você entrega.
 | 03 | [Preparar acesso e limites](03-preparar-acesso-e-limites/) |
 | 04 | [Chamada por API](04-chamada-por-api/) |
 | 05 | [Prompt como contrato](05-prompt-como-contrato/) |
+| 06 | [JSON Schema e validação](06-json-schema-e-validacao/) |
 | 07 | [Embeddings e busca](07-embeddings-e-busca/) |
 | 08 | [Ferramenta e laço do agente](08-ferramenta-e-laco-do-agente/) |
 | 09 | [Executar ferramenta fictícia](09-executar-ferramenta-ficticia/) |
+| 10 | [Alucinação, injeção e variação](10-alucinacao-injecao-e-variacao/) |
 | 11 | [Comparar contrato e evidência](11-comparar-contrato-e-evidencia/) |
 | 12 | [Defesa do protótipo mínimo](12-defesa-do-prototipo-minimo/) |
 
-As demais pastas serão acrescentadas conforme o material do curso ficar disponível.
 Para baixar atualizações com Git, execute `git pull --ff-only` na raiz do repositório.
 
 ## Ajuda

@@ -1,0 +1,32 @@
+{
+  "procedencia": "Fictício, autoria didática; não é saída de modelo",
+  "fonte": {
+    "id": "P-G",
+    "prazo": 4,
+    "unidade": "dias úteis",
+    "condicao": "formulário completo"
+  },
+  "respostas": [
+    {
+      "id": "A",
+      "prazo": 4,
+      "unidade": "dias úteis",
+      "condicao": "formulário completo",
+      "fonte": "P-G"
+    },
+    {
+      "id": "B",
+      "prazo": 2,
+      "unidade": "dias úteis",
+      "condicao": "formulário completo",
+      "fonte": "P-G"
+    },
+    {
+      "id": "C",
+      "prazo": 4,
+      "unidade": "dias corridos",
+      "condicao": "formulário completo",
+      "fonte": "P-G"
+    }
+  ]
+}
